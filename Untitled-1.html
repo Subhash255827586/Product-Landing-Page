@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subhash Saladi | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body { background: #f4f6f9; color: #333; line-height: 1.8; scroll-behavior: smooth; }
+    header {
+      background: linear-gradient(135deg, #2c3e50, #34495e);
+      color: white; padding: 60px 20px; text-align: center;
+    }
+    header h1 { font-size: 3rem; margin-bottom: 10px; }
+    header p { font-size: 1.3rem; opacity: 0.95; }
+
+    nav { background: #1e1e1e; text-align: center; padding: 10px; }
+    nav a {
+      color: white; margin: 0 15px; text-decoration: none;
+      font-weight: bold; font-size: 1.1rem;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2.4rem;
+      margin-bottom: 25px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 30px;
+      transition: 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+
+    .skills-list, .languages, .interests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills-list span, .languages span, .interests span {
+      background: #e0e0e0;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social-icons a {
+      margin: 0 12px;
+      font-size: 1.8rem;
+      color: #2c3e50;
+      transition: 0.3s;
+    }
+    .social-icons a:hover {
+      color: #0077b5;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      section h2 { font-size: 1.6rem; }
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Subhash Saladi</h1>
+    <p>AI/DS Graduate | Full Stack Web Developer | ML Enthusiast</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hello! I'm Subhash Saladi from Rajahmundry, currently pursuing B.Tech in Artificial Intelligence and Data Science at KL University. My journey is driven by curiosity and a passion for technology — from building user-friendly websites to designing AI-powered solutions.</p>
+      <p>I’ve worked on multiple projects involving machine learning, NLP, real-time systems, and full stack development. I thrive in collaborative environments and love tackling real-world problems with code.</p>
+      <p>Currently seeking growth-oriented opportunities where I can continue to learn and contribute meaningfully.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>🗣️ Language Translation with Speech Input and Output</h3>
+      <p>Developed a multi-language speech translator using Google APIs (Speech-to-Text, Text-to-Speech, and Translate). Supported over 100 languages with real-time audio feedback and user-friendly interface.</p>
+    </div>
+
+    <div class="card">
+      <h3>🚗 Automatic Vacant Parking Place Identification System</h3>
+      <p>AI-powered smart parking system managing 60-70 users to detect and display vacant parking spots in real-time. Improved traffic flow and reduced search time using a dynamic interface.</p>
+    </div>
+
+    <div class="card">
+      <h3>🌾 Yield Prediction System Using ML</h3>
+      <p>Built a machine learning model to predict crop yields based on historical and environmental datasets. Used cross-validation and hyperparameter tuning to optimize model accuracy and provide actionable insights.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>💼 Intern - Full Stack Web Developer at SlashMark</h3>
+      <p>Worked on modern web application development using front-end (HTML, CSS, JS) and backend integration. Gained real-world experience in debugging, responsive UI design, and API handling.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & More</h2>
+    <div class="card">
+      <h3>🛠️ Technical Skills</h3>
+      <div class="skills-list">
+        <span>Python</span>
+        <span>Java</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>SQL (Basic)</span>
+        <span>Node.js</span>
+        <span>Problem Solving</span>
+        <span>Team Collaboration</span>
+      </div>
+
+      <h3 style="margin-top: 20px;">📚 Education</h3>
+      <p><strong>B.Tech, AI/DS – KL University</strong> (2021–2025), CGPA: 8.43</p>
+      <p><strong>Intermediate – Tirumala Jr. College</strong> (2019–2021), Marks: 920/1000</p>
+      <p><strong>10th – Tirumala E.M. School</strong> (2018–2019), GPA: 9.7/10</p>
+
+      <h3 style="margin-top: 20px;">📜 Certifications</h3>
+      <p>IBM Python Certified (2024–2027)</p>
+
+      <h3 style="margin-top: 20px;">🗣️ Languages</h3>
+      <div class="languages">
+        <span>English (Fluent)</span>
+        <span>Telugu (Native)</span>
+        <span>Hindi (Professional)</span>
+      </div>
+
+      <h3 style="margin-top: 20px;">🎯 Interests</h3>
+      <div class="interests">
+        <span>Cricket</span>
+        <span>Cooking</span>
+        <span>Travelling</span>
+        <span>Music</span>
+        <span>Gaming</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p><strong>📧 Email:</strong> <a href="mailto:2100080086ai.ds@gmail.com">2100080086ai.ds@gmail.com</a></p>
+      <p><strong>📞 Phone:</strong> 8688455233</p>
+      <p><strong>📍 Location:</strong> Rajahmundry, India</p>
+      <div class="social-icons">
+        <a href="https://linkedin.com/in/saladi-subhash-9841882" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:2100080086ai.ds@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Subhash Saladi. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
