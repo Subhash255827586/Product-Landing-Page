@@ -4,18 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SmartX Pro | Product Landing Page</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2950/2950712.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
-    body { background: #f4f6f8; color: #333; }
+    html {
+      scroll-behavior: smooth;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: #f4f6f8;
+      color: #333;
+    }
     header {
       background: linear-gradient(to right, #1d3557, #457b9d);
       color: white;
       padding: 60px 20px;
       text-align: center;
     }
-    header h1 { font-size: 3rem; }
-    header p { font-size: 1.2rem; margin: 15px 0; }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 15px 0;
+    }
 
     .hero {
       display: flex;
@@ -57,6 +75,7 @@
       border-radius: 6px;
       text-decoration: none;
       font-weight: bold;
+      margin-top: 10px;
       transition: 0.3s;
     }
 
@@ -101,6 +120,17 @@
       font-style: italic;
     }
 
+    .contact {
+      padding: 40px 10%;
+      background: #f9f9f9;
+      text-align: center;
+    }
+
+    .contact p {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+
     footer {
       background: #1d3557;
       color: white;
@@ -113,30 +143,36 @@
         flex-direction: column;
         padding: 30px 5%;
       }
-
       .hero-text {
         margin: 0 0 30px 0;
         text-align: center;
+      }
+      .feature-card p {
+        font-size: 0.95rem;
       }
     }
   </style>
 </head>
 <body>
 
+  <!-- Header -->
   <header>
     <h1>SmartX Pro</h1>
     <p>The Ultimate Smartwatch for Fitness and Lifestyle</p>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-text">
       <h2>Track. Connect. Perform.</h2>
       <p>SmartX Pro combines sleek design with advanced features like heart rate tracking, GPS, and AI fitness coaching — all in one powerful device.</p>
       <a href="#features" class="btn">Explore Features</a>
+      <a href="#contact" class="btn" style="background:#457b9d; margin-left:10px;">Contact Us</a>
     </div>
-    <img src="https://images.unsplash.com/photo-1612231406769-2c2ee8c1fd4a" alt="Smartwatch Product">
+    <img src="https://m.media-amazon.com/images/I/71NrPRCvFRL.jpg" alt="Smartwatch Product">
   </section>
 
+  <!-- Features Section -->
   <section id="features" class="features">
     <div class="feature-card">
       <i class="fas fa-heartbeat"></i>
@@ -155,12 +191,21 @@
     </div>
   </section>
 
+  <!-- Testimonials Section -->
   <section class="testimonials">
     <h2>What Users Are Saying</h2>
     <div class="testimonial">“SmartX Pro changed the way I approach my fitness. Sleek and super accurate!” – Riya M.</div>
     <div class="testimonial">“Love the battery life and stylish look. Perfect for both gym and work.” – Arjun S.</div>
   </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@smartxpro.com</p>
+    <p>Phone: +91 98765 43210</p>
+  </section>
+
+  <!-- Footer -->
   <footer>
     <p>© 2025 SmartX Technologies. All rights reserved.</p>
     <p>Contact: support@smartxpro.com</p>
